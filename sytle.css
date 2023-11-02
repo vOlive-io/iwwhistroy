@@ -1,6 +1,6 @@
 body {
   background: linear-gradient(0deg, #fcbfbb, #f7a8bc);
-  animation: background-slide 25s infinite linear;
+  animation: blinking 3s 0s infinite alternate none;
 }
 #subhead {
   font-size: 30px;
@@ -10,8 +10,10 @@ a {
 }
 
 
-@keyframes background-slide {
-  100% {
-    background-position: -8160px;
-  }
+@keyframes blinking {
+  0% { background: #e3acdf; }
+  25% {background: #f7d128;};
+  50% { background: #fab507; }
+  75% {background: #f7f55e;}
+  100% { background: #f2be13; }
 }
