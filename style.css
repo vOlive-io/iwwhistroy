@@ -3,7 +3,7 @@ body {
   animation: blinking 30s infinite alternate none;
 }
 #head {
-    font-size: 35px;
+    font-size: 25px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -11,8 +11,13 @@ body {
 #subhead {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-size: 12px;
+  font-size: 15px;
 }
+
+legend {
+  font-size: 20px;
+}
+
 a {
   text-decoration: none;
 }
