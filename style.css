@@ -3,14 +3,22 @@ body {
   animation: blinking 30s infinite alternate none;
 }
 #head {
-    font-size: 30px;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #subhead {
-  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 12px;
 }
 a {
   text-decoration: none;
+}
+
+fieldset {
+  width: 600px;
 }
 
 @keyframes blinking {
