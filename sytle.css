@@ -1,9 +1,17 @@
 body {
   background: linear-gradient(0deg, #fcbfbb, #f7a8bc);
+  animation: background-slide 25s infinite linear;
 }
 #subhead {
   font-size: 30px;
 }
 a {
   text-decoration: none;
+}
+
+
+@keyframes background-slide {
+  100% {
+    background-position: -8160px;
+  }
 }
