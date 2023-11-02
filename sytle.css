@@ -11,6 +11,6 @@ a {
 
 
 @keyframes blinking {
-  0% {background: #f7a8bc;}
+  0% {background: #fcbfbb;}
   100% { background: #f7a8bc; }
 }
