@@ -11,9 +11,9 @@ a {
 
 
 @keyframes blinking {
-  0% { background: #e3acdf; }
-  25% {background: #f7d128;};
-  50% { background: #fab507; }
-  75% {background: #f7f55e;}
-  100% { background: #f2be13; }
+  0% { background: #fcbfbb; }
+  25% {background: #fcbfbb;};
+  50% { background: #fcbfbb; }
+  75% {background: #f7a8bc;}
+  100% { background: #f7a8bc; }
 }
