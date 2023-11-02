@@ -2,13 +2,16 @@ body {
   background: linear-gradient(0deg, #fcbfbb, #f7a8bc);
   animation: blinking 30s infinite alternate none;
 }
+#head {
+    font-size: 20px;
+}
+
 #subhead {
-  font-size: 30px;
+  font-size: 15px;
 }
 a {
   text-decoration: none;
 }
-
 
 @keyframes blinking {
   0% {background: #ffb3c6;}
