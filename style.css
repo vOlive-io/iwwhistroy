@@ -3,11 +3,10 @@ body {
   animation: blinking 30s infinite alternate none;
 }
 #head {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #subhead {
-  
   font-size: 15px;
 }
 a {
