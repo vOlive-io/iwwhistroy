@@ -1,4 +1,4 @@
-body {
+#hulbody {
   background: black;
   animation: blinking 30s infinite alternate none;
 }
