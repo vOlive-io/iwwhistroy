@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(0deg, #fcbfbb, #f7a8bc);
+  background: black;
   animation: blinking 30s infinite alternate none;
 }
 #head {
